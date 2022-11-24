@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/html.css" />
     <link rel="stylesheet" href="styles/content.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Home</title>
 </head>
 
@@ -23,7 +24,7 @@
                     <h1>Aul Goodman</h1>
                     <p>A Software Engineer student in a vocational highschool. Currently learning OOP and MVC in PHP.</p>
                 </section>
-                <section class="caption">
+                <section class="caption-image">
                     <img width="128px" height="128px" src="images/avatar.png" alt="" srcset="">
                 </section>
             </article>
@@ -36,7 +37,7 @@
                     <p>I'm going to kill everybody you know</p>
                 </article>
             </section>
-
+            <hr class="m-0">
             <section id="interests" class="section-whoami">
                 <article>
                     <h2>What I am interested on</h2>

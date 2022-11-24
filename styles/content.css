@@ -1,5 +1,4 @@
 .main-column {
-    float: left;
     background-color: beige;
 }
 .footer {    
@@ -58,25 +57,30 @@
 }
 .caption {
     float: right;
+    flex: 3;
     padding-right: 0.6em;
 }
-.caption img {
+@media screen
+    and (max-width: 600px) {
+    .caption-image {
+        display: none;
+    }   
+}
+.caption-image { 
     position: sticky;
+    flex: 1;
+    
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
 }
 .section-whoami {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    border: 5px;
-    border-color: gray;
     display: flex;
     box-sizing: border-box;
     max-width: 75rem;
     min-height: 75vh;
-}
-img {
-    max-inline-size: 100%;
-    block-size: auto;
-    object-fit: contain;
 }
