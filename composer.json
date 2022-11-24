@@ -1,0 +1,8 @@
+{
+    "require": {
+        "bramus/router": "^1.6"
+    },
+    "autoload": {
+        "classmap": ["app/model", "app/controller", "app/view", "vendor/bramus/router/src/Bramus"]
+    }
+}
