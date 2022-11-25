@@ -1,3 +1,38 @@
 .m-0 {
     margin: 0 !important;
 }
+.mt-8 {
+    margin-top: 8px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.h1 h1, .h2 h2, .h3 h3 {
+    text-transform: uppercase;
+    font-family: 'Chivo', sans-serif;
+}
+.top {
+    z-index: 5;
+}
+.column {
+    display: inherit;
+    flex-direction: column;
+}
+.row {
+    display: inherit;
+    flex-direction: row;
+}
+.center-element {
+    align-items: center;
+    justify-content: center;
+}
+.clean-link > a {
+    text-decoration-color: transparent;
+    color: #eee;
+    transition: all 0.2s ease-in-out;
+}
+.clean-link > a:hover {
+    color: #ddd;
+    text-decoration-color: #ddd;
+    transition: all 0.2s ease-in-out;
+}

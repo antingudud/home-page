@@ -1,0 +1,6 @@
+.background-other {background-color: #ddd;}
+:root {
+    --bg-main: #FAF8F6;
+    --bg-section: #eee;
+    --bg-insignificant: #ddd;
+}

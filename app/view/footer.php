@@ -1,4 +1,8 @@
 <link rel="stylesheet" href="styles/footer.css">
-<section class="footer">
-    <p>This is a footer, as you can see</p>
+<link rel="stylesheet" href="styles/style.css">
+
+<section class="footer top container-flex center-element clean-link">
+    <section style="width: 90%; height: 80%;" class="clean-link">
+        <a href="https://github.com/antingudud/">Github</a>
+    </section>
 </section>
