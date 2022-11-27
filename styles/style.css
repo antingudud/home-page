@@ -1,15 +1,14 @@
-.m-0 {
-    margin: 0 !important;
-}
-.mt-8 {
-    margin-top: 8px;
-}
-.mb-8 {
-    margin-bottom: 8px;
-}
+.m-0 { margin: 0 !important; }
+.mt-8 { margin-top: 8px !important; }
+.mb-8 { margin-bottom: 8px !important; }
+.mr-8 { margin-right: 8px !important; }
+.ml-8 { margin-left: 8px !important; }
+.mt-16 { margin-top: 16px !important ;}
+.mb-16 { margin-bottom: 16px !important; }
+.height-8{ height: 80%;}
 .h1 h1, .h2 h2, .h3 h3 {
     text-transform: uppercase;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Chivo', sans-serif !important;
 }
 .top {
     z-index: 5;
@@ -22,8 +21,17 @@
     display: inherit;
     flex-direction: row;
 }
+.pos-relative {
+    position: relative;
+}
 .center-element {
     align-items: center;
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
     justify-content: center;
 }
 .clean-link > a {
@@ -35,4 +43,7 @@
     color: #ddd;
     text-decoration-color: #ddd;
     transition: all 0.2s ease-in-out;
+}
+.img-override {
+    max-width: none !important;
 }

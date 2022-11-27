@@ -1,8 +1,12 @@
 {
     "require": {
-        "bramus/router": "^1.6"
+        "bramus/router": "^1.6",
+        "josantonius/session": "^1.1"
     },
     "autoload": {
-        "classmap": ["app/model", "app/controller", "app/view", "vendor/bramus/router/src/Bramus"]
+        "classmap": ["app/model", "app/controller", "app/view", "vendor/bramus/router/src/Bramus"],
+        "psr-4": {
+            "Josantonius\\":"vendor/josantonius"
+        }
     }
 }

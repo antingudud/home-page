@@ -53,6 +53,72 @@
                 "source": "https://github.com/bramus/router/tree/1.6.1"
             },
             "install-path": "../bramus/router"
+        },
+        {
+            "name": "josantonius/session",
+            "version": "1.1.9",
+            "version_normalized": "1.1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josantonius/php-session.git",
+                "reference": "b393eb90c249ef0596e79e7cf9e5de39bad6fe91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josantonius/php-session/zipball/b393eb90c249ef0596e79e7cf9e5de39bad6fe91",
+                "reference": "b393eb90c249ef0596e79e7cf9e5de39bad6fe91",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "^2.6",
+                "phpunit/phpunit": "^5.7 || ^6.0",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "time": "2022-06-21T11:31:18+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Josantonius\\Session\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josantonius",
+                    "email": "hello@josantonius.dev",
+                    "homepage": "https://josantonius.dev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP library for handling sessions.",
+            "keywords": [
+                "php",
+                "session"
+            ],
+            "support": {
+                "forum": "http://stackoverflow.com/tags/josantonius/php-session",
+                "issues": "https://github.com/josantonius/php-session/issues",
+                "source": "https://github.com/josantonius/php-session"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Josantonius",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../josantonius/session"
         }
     ],
     "dev": true,

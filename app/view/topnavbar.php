@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="styles/header.css" />
-<link rel="stylesheet" href="styles/navbar.css" />
+<link rel="stylesheet" href="/styles/header.css" />
+<link rel="stylesheet" href="/styles/navbar.css" />
 
 <section class="topnavbar">
 

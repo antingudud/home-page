@@ -6,21 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/html.css" />
-    <link rel="stylesheet" href="styles/content.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/html.css" />
+    <link rel="stylesheet" href="/styles/content.css" />
+    <link rel="stylesheet" href="/styles/container.css">
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
 
     <title>Page Not Found</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="parallax-header">
         <?php include "app/view/topnavbar.php"; ?>
     </header>
-
+    <div class="header-spacer"></div>
     <main>
         <section class="img-cover parallax">
             <article class="caption-box">

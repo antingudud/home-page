@@ -6,6 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitac827e8c181b18a347d8397a5e1eef60
 {
+    public static $prefixLengthsPsr4 = array (
+        'J' => 
+        array (
+            'Josantonius\\Session\\' => 20,
+            'Josantonius\\' => 12,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Josantonius\\Session\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/josantonius/session/src',
+        ),
+        'Josantonius\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/josantonius',
+        ),
+    );
+
     public static $prefixesPsr0 = array (
         'B' => 
         array (
@@ -24,6 +43,8 @@ class ComposerStaticInitac827e8c181b18a347d8397a5e1eef60
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInitac827e8c181b18a347d8397a5e1eef60::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitac827e8c181b18a347d8397a5e1eef60::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitac827e8c181b18a347d8397a5e1eef60::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitac827e8c181b18a347d8397a5e1eef60::$classMap;
 

@@ -4,22 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/html.css" />
-    <link rel="stylesheet" href="styles/content.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/color.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+    <link rel="stylesheet" href="/styles/html.css" />
+    <link rel="stylesheet" href="/styles/content.css" />
+    <link rel="stylesheet" href="/styles/container.css">
+    <link rel="stylesheet" href="/styles/fonts.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/color.css" />
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
     <title>Home</title>
 </head>
 
 <body>
-    <header>
+    <header class="parallax-header">
         <?php include "app/view/topnavbar.php"; ?>
     </header>
-
+    <div class="header-spacer"></div>
     <main>
 
         <section class="img-cover parallax">
@@ -29,15 +31,15 @@
                     <p>A Software Engineer student in a vocational highschool. Currently learning OOP and MVC in PHP.</p>
                 </section>
                 <section class="caption-image">
-                    <img width="128px" height="128px" src="images/avatar.png" alt="" srcset="">
+                    <img class="img-override" width="128px" height="128px" src="images/avatar.png" alt="" srcset="">
                 </section>
             </article>
         </section>
 
-        <section class="container-flex">
+        <section class="container-flex bg-dark">
             <section class="top">
                 <section class="container-flex column main-column h2">
-                    <section id="projects" class="section-whoami">
+                    <section id="projects" class="bg-main section-whoami">
                         <article class="section">
                             <h2>My Projects</h2>
                             <ul>
@@ -48,14 +50,14 @@
                         </article>
                     </section>
                     <hr class="m-0">
-                    <section id="interests" class="section-whoami">
+                    <section id="interests" class="bg-main section-whoami">
                         <article class="section">
                             <h2>My interests</h2>
                             <p>I'm interested in games </p>
                         </article>
                     </section>
                     <hr class="m-0">
-                    <section id="didyouknow" class="section-whoami">
+                    <section id="didyouknow" class="bg-main section-whoami">
                         <article class="section">
                             <h2>Did you know?</h2>
                             <ol>
