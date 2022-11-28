@@ -24,7 +24,7 @@ class ConnectDB
         try {
             $this->conn = new mysqli($this->host, $this->user, $this->password, $this->database);
             $this->conn->options(MYSQLI_OPT_INT_AND_FLOAT_NATIVE, 1);
-            $return $this->conn;
+            return $this->conn;
         } catch (\mysqli_sql_exception $e) {
             throw new \mysqli_sql_exception($e->getMessage(), $e->getCode());
         } finally {
